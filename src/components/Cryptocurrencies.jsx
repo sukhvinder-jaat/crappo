@@ -6,7 +6,7 @@ import litecoin from "../assets/Images/svg/bit_3.svg";
 import Slider from "react-slick";
 const Cryptocurrencies = () => {
   var settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 3,
@@ -18,7 +18,7 @@ const Cryptocurrencies = () => {
           slidesToShow: 2,
           slidesToScroll: 1,
           infinite: true,
-          dots: true,
+          dots: false,
         },
       },
       {
@@ -27,7 +27,7 @@ const Cryptocurrencies = () => {
           slidesToShow: 1,
           slidesToScroll: 1,
           infinite: true,
-          dots: true,
+          dots: false,
         },
       },
     ],
@@ -192,7 +192,7 @@ const Cryptocurrencies = () => {
               </div>
             </div>
           </Slider>
-          <div className="d-flex justify-content-between d-xl-none">
+          {/* <div className="d-flex justify-content-between d-xl-none">
             <span onClick={() => arrow.current.slickPrev()}>
               <svg
                 className="rotate"
@@ -222,7 +222,7 @@ const Cryptocurrencies = () => {
                 />
               </svg>
             </span>
-          </div>
+          </div> */}
         </Container>
       </section>
     </>

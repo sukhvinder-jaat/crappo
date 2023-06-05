@@ -19,7 +19,7 @@ import Cryptocurrencies from "./components/Cryptocurrencies";
 function App() {
   AOS.init({ once: true, disable: "mobile" });
   return (
-    <div className="App">
+    <div className="App overflow-hidden">
       <Hero />
       <Digital />
       <Choose />
