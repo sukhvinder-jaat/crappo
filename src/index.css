@@ -11,6 +11,10 @@
 .mx_430 {
   max-width: 430px;
 }
+.z-10{
+  position: relative;
+  z-index: 10 !important;
+}
 /* hero */
 .index_5 {
   z-index: 5 !important;
