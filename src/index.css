@@ -11,7 +11,7 @@
 .mx_430 {
   max-width: 430px;
 }
-.z-10{
+.z-10 {
   position: relative;
   z-index: 10 !important;
 }
@@ -234,6 +234,11 @@
 .slider_box:hover .hide_btn {
   display: none !important;
 }
+@media (max-width: 1920px) and (min-width: 1200px) {
+  .vh_80_1200 {
+    height: 80vh;
+  }
+}
 @media (max-width: 1200px) {
   .nav_show {
     position: fixed;
@@ -266,4 +271,19 @@
   .hero_img_width {
     width: 100%;
   }
+}
+body::-webkit-scrollbar {
+  width: 1em;
+  display: none;
+  background-color: #0d0d2b;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #0154f9;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  display: none;
 }

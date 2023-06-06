@@ -19,7 +19,7 @@ const Hero = () => {
 
   return (
     <section className="bg_blue">
-      <div className="py-5">
+      <div className="py-sm-5 py-2">
         <div className="my_container">
           <div className="d-flex justify-content-between align-items-center">
             <div className="d-flex align-items-center ">
@@ -82,6 +82,7 @@ const Hero = () => {
                   <a
                     className="mb-0 ff_rubic fw_400 fs_sm clr_white position-relative hover_line"
                     href="#"
+                    onClick={() => setfirst(true)}
                   >
                     Products
                   </a>
@@ -90,6 +91,7 @@ const Hero = () => {
                   <a
                     className="mb-0 ff_rubic fw_400 fs_sm clr_white position-relative hover_line"
                     href="#"
+                    onClick={() => setfirst(true)}
                   >
                     Features
                   </a>
@@ -98,6 +100,7 @@ const Hero = () => {
                   <a
                     className="mb-0 ff_rubic fw_400 fs_sm clr_white position-relative hover_line"
                     href="#"
+                    onClick={() => setfirst(true)}
                   >
                     About
                   </a>
@@ -106,11 +109,11 @@ const Hero = () => {
                   <a
                     className="mb-0 ff_rubic fw_400 fs_sm clr_white position-relative hover_line "
                     href="#"
+                    onClick={() => setfirst(true)}
                   >
                     Contact
                   </a>
                 </li>
-                <hr className="login_line d-none d-xl-block" />
                 <li>
                   <a
                     className="mb-0 ff_rubic fw_500 fs_sm clr_white position-relative hover_line"
@@ -119,6 +122,7 @@ const Hero = () => {
                     Login
                   </a>
                 </li>
+                <hr className="login_line d-none d-xl-block" />
                 <li>
                   <button className="mb-0 ff_rubic fw_500 fs_sm clr_white register_btn">
                     Register
@@ -135,7 +139,7 @@ const Hero = () => {
         </div>
       </div>
       {/* hero section */}
-      <div className="my_container py-5 position-relative">
+      <div className="my_container py-sm-5 pt-3 position-relative vh_80_1200 d-flex flex-column justify-content-xl-center">
         <span className="position-absolute index_5 hero_big_line d-none d-xl-block">
           <img src={back_big} alt="back_big" />
         </span>
@@ -147,22 +151,22 @@ const Hero = () => {
             lg={6}
             className="mt-5 mt-xl-0 d-flex align-items-start  flex-column"
           >
-            <button className="d-flex flex-column flex-sm-row align-items-sm-center save_button border-0 p-3 p-sm-2">
+            <button className="d-flex gap-2 flex-row align-items-center save_button border-0 p-2 p-sm-3">
               <button className="fw_500 ff_rubic fs_sm clr_blue hero_save_btn">
                 75% SAVE
               </button>
-              <p className="mb-0 fw_400 ff_rubic fs_sm clr_white ps-sm-3 mt-2 mt-sm-0">
+              <p className="mb-0 fw_400 ff_rubic fs_sm clr_white ps-sm-3">
                 For the Black Friday weekend
               </p>
             </button>
-            <p className="fw_700 fs_4xl ff_rubic clr_white  text-start mt-4 pt-2">
+            <p className="fw_700 fs_4xl ff_rubic clr_white  text-start mt-4 pt-sm-2">
               Fastest & secure platform to invest in crypto
             </p>
-            <p className="fw_400 ff_rubic text-start fs_sm clr_silver pt-3 mx_430">
+            <p className="fw_400 ff_rubic text-start fs_sm clr_silver pt-sm-3 mx_430">
               Buy and sell cryptocurrencies, trusted by 10M wallets with over
               $30 billion in transactions.
             </p>
-            <button className="fw_500 ff_rubic fs_md clr_white free_btn mt-4">
+            <button className="fw_500 ff_rubic fs_md clr_white free_btn mt-sm-4">
               Try for FREE
               <span className="ps-4">
                 <svg

@@ -16,7 +16,7 @@ const Choose = () => {
       <span className="position-absolute why_bg_2 bottom-0">
         <img src={why_bg_2} alt="why_bg_2" />
       </span>
-      <div className="my_container py-5 mt-xl-5">
+      <div className="my_container py-lg-5 pb-5 mt-xl-5">
         <Row className="d-flex flex-xl-row text-start">
           <Col lg={7} xs={12} className="mt-4 pe-xl-5" data-aos="fade-up-right">
             <img

@@ -57,7 +57,7 @@ const Digital = () => {
             lg={4}
             md={6}
             xsm={12}
-            className="mt-5 mt-md-0 d-flex justify-content-xl-center"
+            className="mt-sm-5 mt-4 mt-md-0 d-flex justify-content-xl-center"
             data-aos="fade-right"
           >
             <div className="d-flex align-items-center w_200">
@@ -90,7 +90,7 @@ const Digital = () => {
             lg={4}
             md={6}
             xsm={12}
-            className="mt-5 mt-lg-0 d-flex justify-content-xl-center"
+            className="mt-sm-5 mt-4 d-flex justify-content-xl-center"
             data-aos="fade-right"
           >
             <div className="d-flex align-items-center w_200">

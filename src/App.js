@@ -17,7 +17,7 @@ import Start from "./components/Start";
 import Foot from "./components/Foot";
 import Cryptocurrencies from "./components/Cryptocurrencies";
 function App() {
-  AOS.init({ once: true, disable: "mobile" });
+  AOS.init();
   return (
     <div className="App overflow-hidden">
       <Hero />
